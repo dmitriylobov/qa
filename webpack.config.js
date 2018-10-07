@@ -16,6 +16,15 @@ module.exports = {
                     }
                 ]
 
+            }, {
+                test: /\.(woff(2)?|ttf|eot|svg|png)(\?v=\d+\.\d+\.\d+)?$/,
+                use: [{
+                    loader: 'file-loader',
+                    options: {
+                        name: '[name].[ext]',
+                        outputPath: 'font/'
+                    }
+                }]
             },
             {
                 test: /\.scss$/,
