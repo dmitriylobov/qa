@@ -1,7 +1,11 @@
 @import "colors.scss";
 
 .description {
-  flex-grow: 3;
+  width: 50%;
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .wwa-content {
@@ -9,7 +13,6 @@
 }
 
 .wwa {
-  flex-grow: 2;
   &__text {
     color: $gray-txt;
     font-family: Roboto;
@@ -26,7 +29,12 @@
   }
 
   &-content {
-    padding-top: 200px;
+    padding-top: 190px;
+    padding-bottom: 190px;
+  }
+
+  &-spacer {
+    width: 15%;
   }
 
 }

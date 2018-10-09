@@ -1,0 +1,28 @@
+.icon {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  &.fb {
+    background-image: url('/images/fb-icon.png');
+  }
+
+  &.insta {
+    background-image: url("/images/inst-icon.png");
+  }
+
+  &.gmail {
+    background-image: url("/images/gmail-icon.png")
+  }
+}
+
+.social-links {
+  a {
+    padding: 0 12.5px;
+  }
+
+  a:first-child {
+    padding-left: 0;
+  }
+}
