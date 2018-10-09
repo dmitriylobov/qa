@@ -164,21 +164,22 @@
 }
 
 .wwd-block {
-  background: white url('/images/background-mac.png') no-repeat;
-  background-size: cover;
+  background: white url('/images/background-mac.png');
 }
 
 .technology-block {
-  background: black url('/images/background-scheme.png') no-repeat;
-  background-size: cover;
+  background: black url('/images/background-scheme.png');
 }
 
 .cd-block {
-  background: white url('/images/background-building.png') no-repeat;
-  background-size: cover;
+  background: white url('/images/background-building.png');
 }
 
 .form-block {
-  background: black url('/images/background-street.png') no-repeat;
+  background: black url('/images/background-street.png');
+}
+
+.wwd-block,.technology-block,.cd-block,.form-block{
   background-size: cover;
+  background-repeat: no-repeat;
 }
