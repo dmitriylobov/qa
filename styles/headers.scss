@@ -1,26 +1,26 @@
+@import "colors.scss";
+
 h1 {
-  color: #555259;
-  font-family: Roboto;
+  color: $gray-smpl;
   font-size: 45px;
-  font-weight: 500;
   line-height: 1.5;
-  text-transform: uppercase;
 }
 
 h2 {
-  color: #e9eef2;
-  font-family: Roboto;
+  color: $gray-txt;
   font-size: 45px;
-  font-weight: 500;
   line-height: 1.5;
-  text-transform: uppercase;
 }
 
 h4 {
-  color: #555259;
-  font-family: Roboto;
+  color: $gray-smpl;
   font-size: 12px;
-  font-weight: 500;
   line-height: 1.8;
+  letter-spacing: 0.05em;
+}
+
+h1, h2, h4 {
+  font-family: Roboto;
   text-transform: uppercase;
+  font-weight: 500;
 }

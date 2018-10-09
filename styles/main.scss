@@ -45,18 +45,18 @@
 
   div:nth-child(1) {
     span {
-      background-color: #d0cece;
+      background-color: $gray-1;
     }
   }
 
   div:nth-child(2) {
     span {
-      background-color: #a7a7a7;
+      background-color: $gray-2;
     }
   }
   div:nth-child(3) {
     span {
-      background-color: #737373;
+      background-color: $gray-3;
     }
   }
 }
@@ -71,9 +71,9 @@
     border-radius: 50%;
     width: 15px;
     height: 15px;
-    background-color: #555259;
+    background-color: $gray-smpl;
     &.active {
-      background-color: #cf999e;
+      background-color: $pink-lt;
     }
   }
 }
@@ -113,7 +113,7 @@
         list-style: none;
         float: left;
         a {
-          color: #555259;
+          color: $gray-smpl;
           font-family: Roboto;
           font-size: 12px;
           font-weight: 500;
@@ -128,8 +128,8 @@
 
     .quote-container {
       .quote {
-        background-color: #ce4e75;
-        color: #fefefe;
+        background-color: $pink;
+        color: $gray-lt;
         font-family: Roboto;
         font-size: 12px;
         font-weight: 500;
@@ -164,21 +164,21 @@
 }
 
 .wwd-block {
-  background: #fff url('/images/background-mac.png') no-repeat;
+  background: white url('/images/background-mac.png') no-repeat;
   background-size: cover;
 }
 
 .technology-block {
-  background: #000 url('/images/background-scheme.png') no-repeat;
+  background: black url('/images/background-scheme.png') no-repeat;
   background-size: cover;
 }
 
 .cd-block {
-  background: #fff url('/images/background-building.png') no-repeat;
+  background: white url('/images/background-building.png') no-repeat;
   background-size: cover;
 }
 
 .form-block {
-  background: #000 url('/images/background-street.png') no-repeat;
+  background: black url('/images/background-street.png') no-repeat;
   background-size: cover;
 }
