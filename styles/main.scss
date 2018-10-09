@@ -20,6 +20,10 @@
   right: 99px;
   bottom: 65px;
   cursor: pointer;
+  display: block;
+  &:hover {
+    text-decoration: none;
+  }
   span {
     width: 19px;
     height: 2px;
@@ -115,6 +119,7 @@
           line-height: 18px;
           text-transform: uppercase;
           cursor: pointer;
+          text-decoration: none;
         }
       }
       @include clearfix();
@@ -135,6 +140,10 @@
         opacity: 0.7;
       }
     }
+  }
+
+  .first-description {
+    padding-top: 40px;
   }
 
   .slide {
