@@ -2,6 +2,7 @@
 @import "colors.scss";
 @import "headers.scss";
 @import "font.scss";
+@import "wwa-styles.scss";
 
 @mixin clearfix() {
   &:before,
@@ -103,16 +104,18 @@
     nav {
       padding: 38px;
       li {
-        color: #555259;
-        float: left;
-        font-family: Roboto;
-        font-size: 12px;
-        font-weight: 500;
-        line-height: 18px;
-        text-transform: uppercase;
-        list-style: none;
         padding-right: 29px;
-        cursor: pointer;
+        list-style: none;
+        float: left;
+        a {
+          color: #555259;
+          font-family: Roboto;
+          font-size: 12px;
+          font-weight: 500;
+          line-height: 18px;
+          text-transform: uppercase;
+          cursor: pointer;
+        }
       }
       @include clearfix();
     }
@@ -150,13 +153,6 @@
   }
 }
 
-.wwa-block {
-  background: #000909 url('/images/background-people.png') no-repeat;
-  background-size: cover;
-  display: flex;
-  justify-content: center;
-}
-
 .wwd-block {
   background: #fff url('/images/background-mac.png') no-repeat;
   background-size: cover;
@@ -167,7 +163,7 @@
   background-size: cover;
 }
 
-.cd-block{
+.cd-block {
   background: #fff url('/images/background-building.png') no-repeat;
   background-size: cover;
 }
@@ -175,16 +171,4 @@
 .form-block {
   background: #000 url('/images/background-street.png') no-repeat;
   background-size: cover;
-}
-
-.wwa__text {
-  color: #e9eef2;
-  font-family: Roboto;
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 18px;
-}
-
-.description, .wwa {
-  flex: 1;
 }

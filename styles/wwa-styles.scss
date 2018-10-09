@@ -1,0 +1,27 @@
+@import "colors.scss";
+
+.description, .wwa {
+  flex: 1;
+}
+
+.wwa-content {
+  display: flex;
+}
+
+.wwa {
+  &__text {
+    color: $gray-txt;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+  }
+
+  &-block {
+    background: #000909 url('/images/background-people.png') no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+  }
+
+}

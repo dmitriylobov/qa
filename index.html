@@ -1,93 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 <body>
-<div class="screen-wrapper">
-    <div class="header column">
-        <div class="logo">
-            <span class="logo__mock">TEST <br/> CONTORA</span>
-        </div>
-        <div class="nav">
-            <nav>
-                <li>Home</li>
-                <li><a href="#wwa">About us</a></li>
-                <li>What we do</li>
-                <li>Technology</li>
-                <li>Continious delivery</li>
-                <li>Contuct us</li>
-            </nav>
-            <div class="quote-container">
-                <a class="quote">get a quote</a>
-            </div>
-        </div>
+<div class="screen-wrapper" id="home">
+  <div class="header column">
+    <div class="logo">
+      <span class="logo__mock">TEST <br/> CONTORA</span>
     </div>
-    <div data-ride="carousel" class="carousel slide" id="carouselIndicator">
-        <ol class="carousel-indicators">
-            <li data-target="#carouselIndicator" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselIndicator" data-slide-to="1"></li>
-        </ol>
-        <div class="carousel-inner">
-            <div class="carousel-item active slide slide__one">
-                <div class="slide-img__wrapper">
-                    <div class="column slide-container">
-                        <h1>Unique selling proposition</h1>
-                        <h4>dfgkabv,c.dsjvaerl v hosdjodj hdcolxsud sldj oo sd<br/>
-                            s ioudfh gsd osdfoi ksdflsuj d df<br/>
-                            ndfksvv ds sdihf dshfd iodh</h4>
-                    </div>
-                </div>
-            </div>
-            <div class="carousel-item slide slide__two">
-                <img src="./images/slide1.png" alt="Second slide">
-            </div>
-        </div>
-        </a>
+    <div class="nav">
+      <nav id="navigation-menu">
+        <li><a class="scrollLink" href="#home">Home</a></li>
+        <li><a class="scrollLink" href="#wwa">About us</a></li>
+        <li><a class="scrollLink" href="#wwd">What we do</a></li>
+        <li><a class="scrollLink" href="#technology">Technology</a></li>
+        <li><a class="scrollLink" href="#cd">Continious delivery</a></li>
+        <li><a class="scrollLink" href="#form">Contuct us</a></li>
+      </nav>
+      <div class="quote-container">
+        <a class="quote">get a quote</a>
+      </div>
     </div>
-    <div class="line-toggler">
-        <div>
-            <span></span>
-            <span></span>
+  </div>
+  <div data-ride="carousel" class="carousel slide" id="carouselIndicator">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselIndicator" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselIndicator" data-slide-to="1"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active slide slide__one">
+        <div class="slide-img__wrapper">
+          <div class="column slide-container">
+            <h1>Unique selling proposition</h1>
+            <h4>dfgkabv,c.dsjvaerl v hosdjodj hdcolxsud sldj oo sd<br/>
+              s ioudfh gsd osdfoi ksdflsuj d df<br/>
+              ndfksvv ds sdihf dshfd iodh</h4>
+          </div>
         </div>
-        <div>
-            <span></span>
-            <span></span>
-        </div>
-        <div>
-            <span></span>
-            <span></span>
-        </div>
+      </div>
+      <div class="carousel-item slide slide__two">
+        <img src="./images/slide1.png" alt="Second slide">
+      </div>
     </div>
+    </a>
+  </div>
+  <div class="line-toggler">
+    <div>
+      <span></span>
+      <span></span>
+    </div>
+    <div>
+      <span></span>
+      <span></span>
+    </div>
+    <div>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
 </div>
 <div class="screen-wrapper wwa-block column" id="wwa">
+  <div class="wwa-content">
     <div class="description">
-        <p class="wwa__text">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
-            Aenean sollicitudin,
-            lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.
-            Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a
-            odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent
-            taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+      <p class="wwa__text">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
+        Aenean sollicitudin,
+        lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.
+        Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a
+        odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent
+        taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
 
-            Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed
-            ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit
-            mauris egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim.
-        </p>
+        Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed
+        ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit
+        mauris egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim.
+      </p>
+      <div class="social-links">
+
+      </div>
     </div>
     <div class="wwa">
-        <h2>who we are</h2>
+      <h2>who we are</h2>
     </div>
+  </div>
 </div>
-<div class="screen-wrapper column wwd-block"></div>
-<div class="screen-wrapper column technology-block"></div>
-<div class="screen-wrapper column cd-block"></div>
-<div class="screen-wrapper column form-block"></div>
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
+<div class="screen-wrapper column wwd-block" id="wwd"></div>
+<div class="screen-wrapper column technology-block" id="technology"></div>
+<div class="screen-wrapper column cd-block" id="cd"></div>
+<div class="screen-wrapper column form-block" id="form"></div>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
