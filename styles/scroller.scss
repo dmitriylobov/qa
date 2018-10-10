@@ -1,0 +1,67 @@
+@import "colors.scss";
+
+.scroller-block {
+  position: absolute;
+  bottom: 110px;
+  right: 100px;
+  .arrow-bottom {
+    margin-top: 45px;
+  }
+  .arrow-top {
+    margin-top: 25px;
+  }
+}
+
+.arrow-bottom, .arrow-top {
+  cursor: pointer;
+  .scrollLink:hover {
+    text-decoration: none;
+  }
+  span {
+    width: 19px;
+    height: 2px;
+    display: inline-block;
+    background-color: $gray-arrow;
+  }
+  span:nth-child(even) {
+    margin-left: -5px;
+  }
+  span:nth-child(odd) {
+    margin-right: -5px;
+  }
+
+}
+
+.arrow-top {
+  span:nth-child(odd) {
+    transform: rotate(135deg);
+  }
+  span:nth-child(even) {
+    transform: rotate(225deg);
+  }
+}
+
+.arrow-bottom {
+  span:nth-child(odd) {
+    transform: rotate(45deg);
+  }
+  span:nth-child(even) {
+    transform: rotate(135deg);
+  }
+}
+
+.progress {
+  width: 1px;
+  height: 70px;
+  background-color: $pink-line;
+  position: absolute;
+  top: 0;
+
+  &-line {
+    position: relative;
+    width: 1px;
+    height: 280px;
+    background-color: $gray-arrow-1;
+    margin: 0 auto;
+  }
+}

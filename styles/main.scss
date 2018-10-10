@@ -3,9 +3,12 @@
 @import "headers.scss";
 @import "font.scss";
 @import "social.scss";
-@import "wwa-styles.scss";
-@import "wwd-styles.scss";
+@import "wwa.scss";
+@import "wwd.scss";
 @import "scroller.scss";
+@import "technology.scss";
+@import "cd.scss";
+@import "form.scss";
 
 @mixin clearfix() {
   &:before,
