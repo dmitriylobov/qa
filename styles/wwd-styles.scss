@@ -1,0 +1,26 @@
+@import "colors.scss";
+
+.wwd-fon {
+  padding: 28px 60px 50px 73px;
+  background-color: $pink-white;
+}
+
+.wwd-white-text {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 300;
+}
+
+.wwd-head {
+  padding-bottom: 40px;
+}
+
+.wwd {
+  padding-top: 40px;
+}
+
+.wwd__text {
+  max-width: 585px;
+}

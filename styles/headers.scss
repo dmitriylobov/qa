@@ -19,7 +19,13 @@ h4 {
   letter-spacing: 0.05em;
 }
 
-h1, h2, h4 {
+h6 {
+  color: white;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+h1, h2, h4, h6 {
   font-family: Roboto;
   text-transform: uppercase;
   font-weight: 500;

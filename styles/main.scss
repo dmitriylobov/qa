@@ -4,6 +4,8 @@
 @import "font.scss";
 @import "social.scss";
 @import "wwa-styles.scss";
+@import "wwd-styles.scss";
+@import "scroller.scss";
 
 @mixin clearfix() {
   &:before,
@@ -179,7 +181,7 @@
   background: black url('/images/background-street.png');
 }
 
-.wwd-block,.technology-block,.cd-block,.form-block{
-  background-size: cover;
+.wwd-block, .technology-block, .cd-block, .form-block {
+  background-size: 100% 100%;
   background-repeat: no-repeat;
 }
