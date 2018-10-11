@@ -8,11 +8,9 @@
   justify-content: space-between;
 }
 
-.wwa-content {
-  display: flex;
-}
-
 .wwa {
+  padding-right: 90px;
+  margin-top: 150px;
   &__text {
     color: $gray-txt;
     font-family: Roboto;
@@ -31,6 +29,8 @@
   &-content {
     padding-top: 190px;
     padding-bottom: 190px;
+    display: flex;
+    justify-content: space-between;
   }
 
   &-spacer {
